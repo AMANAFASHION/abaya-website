@@ -1,67 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Products - Abaya & Baibui Store</title>
-<link rel="stylesheet" href="style.css">
+    <title>Products - Abaya & Baibui Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 30px;
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+</style>
 </head>
 
 <body>
 
-<header>
-<h1>Abaya & Baibui Store</h1>
-</header>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="products.html">Products</a>
-<a href="contact.html">Contact</a>
+<!-- Header na Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Abaya Store</a>
+    <div>
+      <a class="nav-link text-white" href="index.html">Home</a>
+      <a class="nav-link text-white" href="product.html">Products</a>
+      <a class="nav-link text-white" href="contact.html">Contact</a>
+    </div>
+  </div>
 </nav>
 
-<h2 >Our Products</h2>
-<section class="products">
+<!-- Products Section -->
+<div class="container mt-4">
+  <h2 class="mb-4 text-center">Our Products</h2>
+  
+  <div class="row">
+    <!-- Product 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="abaya.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Beautiful Abaya</h5>
+          <p>$30</p>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>
+    </div>
 
-<div class="product">
-<img src="abaya.jpeg" width="200">
-<p>Beautiful Abaya - $30</p>
-<button>Buy Now</button>
+    <!-- Product 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="mtandio.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Elegant Baibui</h5>
+          <p>$25</p>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="kijora.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Luxury Abaya</h5>
+          <p>$40</p>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Product 4 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="abaya.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Beautiful Abaya</h5>
+          <p>$30</p>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="mtandio.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Elegant Baibui</h5>
+          <p>$25</p>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="kijora.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Luxury Abaya</h5>
+          <p>$40</p>
+          <button class="btn btn-dark">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="product">
-<img src="abaya.jpeg" width="200">
-<p>Elegant Baibui - $25</p>
-<button>Buy Now</button>
-</div>
-
-<div class="product">
-<img src="abaya.jpeg" width="200">
-<p>Luxury Abaya - $40</p>
-<button>Buy Now</button>
-</div>
-
-<div class="product">
-<img src="abaya.jpeg" width="200">
-<p>Beautiful Abaya - $30</p>
-<button>Buy Now</button>
-</div>
-
-<div class="product">
-<img src="abaya.jpeg" width="200">
-<p>Elegant Baibui - $25</p>
-<button>Buy Now</button>
-</div>
-
-<div class="product">
-<img src="abaya.jpeg" width="200">
-<p>Luxury Abaya - $40</p>
-<button>Buy Now</button>
-</div>
-</section>
-
-<footer>
-<p>Copyright 2026</p>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-4">
+    <p>Copyright 2026 Abaya & Baibui Store</p>
 </footer>
+
+<!-- WhatsApp Floating Button -->
 <a href="https://wa.me/255658683060" class="whatsapp" target="_blank">
-WhatsApp
+    Chat on WhatsApp
 </a>
+
+<!-- WhatsApp Button CSS -->
+
 </body>
 </html>
